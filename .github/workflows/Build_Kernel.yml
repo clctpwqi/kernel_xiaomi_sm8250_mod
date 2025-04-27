@@ -416,8 +416,8 @@ jobs:
               echo "🔧 设置自定义内核版本: $VERSION"
               sed -i "s/-dirty/-$VERSION/g" scripts/setlocalversion
           else
-              echo "🔧 使用默认版本后缀: -Yun"
-              sed -i "s/-dirty/-Yun/g" scripts/setlocalversion
+              echo "🔧 使用默认版本后缀: -CLC"
+              sed -i "s/-dirty/-CLC-UMI-SKN-K-S-p0f6z3v9/g" scripts/setlocalversion
           fi
 
           FULL_VERSION="$VERSION"
